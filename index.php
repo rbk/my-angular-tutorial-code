@@ -1,7 +1,7 @@
 <!DOCtype html>
 <html lang="EN">
 <head>
-	<title>Richards Public Html Folder</title>
+	<title>Angular Tutorial Code</title>
 	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<link rel="stylesheet" type="text/css" href="css/foundation.min.css" media="all" />
 	<link rel="stylesheet" type="text/css" href="css/normalize.css" media="all" />
