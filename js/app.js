@@ -4,7 +4,7 @@ var myApp = angular.module('myApp', []); // No dependencies, hence the empty arr
 // You could add an ajax/http call get an json encoded array from php, or call to mongodb using nodejs server.
 // This would be good for building api's
 myApp.factory('Data', function(){
-	return { fname: "Richard", lname: "Keller" };
+	return { fname: "Richard", lname: "Keller", alpha: "abcdefghijklmnopqrstuvwxyz" };
 });
 
 
@@ -14,6 +14,9 @@ myApp.filter('reverse', function(Data){
 		return text.split("").reverse().join("");
 	}
 })
+
+
+// Learn tests later
 
 
 
